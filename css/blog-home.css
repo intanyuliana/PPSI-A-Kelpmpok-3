@@ -1,0 +1,112 @@
+/*!
+ * Start Bootstrap - Blog Home (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*color: #6B6B6B;*/
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #fff;
+	font-family: 'Armata', 'Segoe UI', sans-serif;
+	font-size: 26px;
+	color: #fff;
+	border: 600;
+	/*border-color: #6B6B6B;*/
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  	/*color: white;*/
+  	font-family: 'Armata', 'Segoe UI', sans-serif;
+  	color: #fff;
+  	/*background-color: #000;*/
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+	background-color: #000;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #145A32;
+    font-family: 'Armata', 'Segoe UI', sans-serif;
+    color: transparent;
+    box-shadow: 0 1px 3px #000;
+    margin-bottom: 0;
+    /*border-top: 2px solid #000;*/
+}
+
+.nav {
+	font-family: 'Armata', 'Segoe UI', sans-serif;
+	color: #DADADA;
+}
+
+.page-header {
+	margin: 0px 0px 15px; 
+	/*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+	font-family: 'Armata', 'Segoe UI', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #000;
+	border: 600;
+}
+
+ h1 small {
+	color: #000;
+	border: 900;
+}
+
+.title {
+	/*margin: 0; */
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.title-entry {
+	/*font-family: 'Roboto Slab', serif;*/
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.42857143;
+	font-size: 14px;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+#crop {
+    width: 120px;
+    height: 90px;
+    overflow: hidden;
+    margin: 0px 0px 0px 7px; 
+}
+
+#crop img {
+    width: 180px;
+    height: 135px;
+    margin: -10px 0 0 -10px;
+}
+
+#conten {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+}
+
+.form {
+	margin: 10px 30px 20px 20px;
+}
+
+.well {
+	border-top: 3px solid #229954;
+	background-color: #ecf0f5;
+	color: #000;
+	margin-right: 22px; 
+}
